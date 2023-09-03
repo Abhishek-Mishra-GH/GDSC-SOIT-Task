@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    color: rgb(106, 103, 103);
+    line-height: 1.8rem;
+}
+
+.c-p {
+    color: #fb7465c5;
+}
+
+.c-span {
+    color: #fe6351;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.big-section {
+    height: 100vh;
+}
+
+.main-nav {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+nav {
+    margin-bottom: 5vh;
+}
+
+.nav-links {
+    flex-basis: 730px;
+}
+
+.nav-links ul {
+    justify-content: end;
+    gap: 40px;
+}
+
+.ham-menu {
+    width: 20px;
+    display: none;
+}
+
+
+.btn {
+    color: white;
+    border: none;
+    background-color: #fe6351;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #88362dd7;
+}
+
+/* featured shoes section */
+
+.header-right {
+    background-color: #eceeff;
+    max-height: 500px;
+}
+
+.featured {
+    height: 500px;
+}
+
+.featured #f-img {
+    width: 600px;
+}
+
+footer {
+    height: 50vh;
+    margin-top: 5%;
+    padding: 5%;
+    color: darkgray;
+    background-color: black;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .ham-menu {
+        display: block;
+    }
+
+    .container.flex {
+        flex-direction: column;
+    }
+}
