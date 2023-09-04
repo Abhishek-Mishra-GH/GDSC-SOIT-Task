@@ -63,7 +63,7 @@ ul {
 }
 
 .big-section {
-    height: 100vh;
+    /* for test only */
 }
 
 .main-nav {
@@ -123,7 +123,6 @@ nav {
 }
 
 footer {
-    height: 50vh;
     margin-top: 5%;
     padding: 5%;
     color: darkgray;
